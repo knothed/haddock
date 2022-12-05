@@ -223,6 +223,7 @@ classify tok =
     ITjavascriptcallconv   -> TkKeyword
     ITmdo               {} -> TkKeyword
     ITfamily               -> TkKeyword
+    ITone                  -> TkKeyword
     ITrole                 -> TkKeyword
     ITgroup                -> TkKeyword
     ITby                   -> TkKeyword
